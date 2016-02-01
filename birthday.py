@@ -31,7 +31,7 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
-from datetime import datetime
+"""from datetime import datetime
 from calendar import month_name
 
 
@@ -40,8 +40,9 @@ born_m=str(input("During what month were you born? "))
 born_md=born_m.lower()
 born_y=str(input("What year were you born in? "))
 born_d=str(input("What day were you born? "))
+"""
+print(datetime.today)
 
-if(born_d==datetime.today().day):
-    if(born_md==datetime.today().month):
-        print("Happy birthday")
+#if(born_d==datetime.today().day and born_md==datetime.today().month):
+ #   print("Happy birthday")
 
