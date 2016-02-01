@@ -40,6 +40,7 @@ born_m=str(input("During what month were you born? "))
 born_md=born_m.lower()
 born_y=str(input("What year were you born in? "))
 born_d=str(input("What day were you born? "))
+
 if(born_d==datetime.today().day):
     if(born_md==datetime.today().month):
         if(born_y==datetime.today().year):
