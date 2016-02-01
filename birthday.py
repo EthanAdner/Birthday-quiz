@@ -31,8 +31,8 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
-from datetime import datetime as DATE
-from calendar import month_name as MONTH
+from datetime import datetime
+from calendar import month_name
 
 
 name=str(input("What is your name? "))
