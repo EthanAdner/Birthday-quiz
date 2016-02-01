@@ -31,21 +31,20 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
-"""from datetime import datetime
+from datetime import datetime
 from calendar import month_name
-
+month_name=list(month_name)
 
 name=str(input("What is your name? "))
 born_m=str(input("During what month were you born? "))
 born_md=born_m.lower()
 born_y=str(input("What year were you born in? "))
 born_d=str(input("What day were you born? "))
-"""
-x=0
-while(x<10000):
-    print(datetime.today())
-    x+=1
 
-#if(born_d==datetime.today().day and born_md==datetime.today().month):
- #   print("Happy birthday")
+for x in month_name:
+    if born_m==x
+    
+
+if(born_d==datetime.today().day and born_md==datetime.today().month):
+   print("Happy birthday")
 
