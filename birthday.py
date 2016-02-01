@@ -41,7 +41,7 @@ born_md=born_m.lower()
 born_y=str(input("What year were you born in? "))
 born_d=str(input("What day were you born? "))
 """
-print(datetime.today)
+print(datetime.today())
 
 #if(born_d==datetime.today().day and born_md==datetime.today().month):
  #   print("Happy birthday")
