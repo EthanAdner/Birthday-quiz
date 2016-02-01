@@ -31,3 +31,7 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+name=str(input("What is your name? "))
+born_m=str(input("During what month were you born? "))
+born_y=str(input("What year were you born in? "))
+born_d=str(input("What day were you born? "))
