@@ -33,7 +33,9 @@ Example Session
 """
 from datetime import datetime
 from calendar import month_name
-month-name = list(month_name)
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+#month-name = list(month_name)
 
 name = input("What is your name? ")
 date-m = input("Hi " + name + ", what was the name of the month are you born? ")
