@@ -37,9 +37,9 @@ month-name = list(month_name)
 print(month-name)
 
 date-d = float(input("What was the day you were born"))
-date-m = str(input("What month are you born"))
+date-m = input("What month are you born")
 date-y = float(input("What year were you born"))
-name = str(input("What is your name"))
+name = input("What is your name")
 
 monthnum = month-name.index(date-m)
 print(monthnum)
