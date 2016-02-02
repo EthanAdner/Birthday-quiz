@@ -35,10 +35,11 @@ from datetime import datetime
 from calendar import month_name
 month-name = list(month_name)
 
-name = input("What is your name")
-date-m = input("What month are you born")
-date-y = float(input("What year were you born"))
-date-d = float(input("What was the day you were born"))
-
+name = input("What is your name? ")
+date-m = input("Hi " + name + ", what was the name of the month are you born? ")
+date-y = float(input("And what year were you born in, " + name + "? "))
+date-d = float(input("And the day? "))
+"""
 monthnum = month-name.index(date-m)
 print(monthnum)
+"""
