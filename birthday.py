@@ -35,12 +35,12 @@ from datetime import datetime
 from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
-month-name = list(month_name)
+month_name = list(month_name)
 
 name = input("What is your name? ")
 date_m = input("Hi " + name + ", what was the name of the month are you born? ")
 date_y = float(input("And what year were you born in, " + name + "? "))
 date_d = float(input("And the day? "))
 
-monthnum = month-name.index(date-m)
+monthnum = month_name.index(date-m)
 print(monthnum)
