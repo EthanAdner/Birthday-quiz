@@ -43,4 +43,6 @@ date_y = float(input("And what year were you born in, " + name + "? "))
 date_d = float(input("And the day? "))
 
 monthnum = month_name.index(date_m)
+if (monthnum == 10) and (date_d == 31):
+    print("spooky")
 print(monthnum)
