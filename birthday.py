@@ -42,5 +42,5 @@ date_m = input("Hi " + name + ", what was the name of the month are you born? ")
 date_y = float(input("And what year were you born in, " + name + "? "))
 date_d = float(input("And the day? "))
 
-monthnum = month_name.index(date-m)
+monthnum = month_name.index(date_m)
 print(monthnum)
