@@ -33,8 +33,8 @@ Example Session
 """
 from datetime import datetime
 from calendar import month_name
-#month_name = list(month_name)
-#print(month_name)
+month-name = list(month_name)
+print(month_name)
 
 date-d = float(input("What was the day you were born"))
 date-m = str(input("What month are you born"))
