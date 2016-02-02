@@ -34,12 +34,11 @@ Example Session
 from datetime import datetime
 from calendar import month_name
 month-name = list(month_name)
-print(month-name)
 
-date-d = float(input("What was the day you were born"))
+name = input("What is your name")
 date-m = input("What month are you born")
 date-y = float(input("What year were you born"))
-name = input("What is your name")
+date-d = float(input("What was the day you were born"))
 
 monthnum = month-name.index(date-m)
 print(monthnum)
