@@ -42,9 +42,28 @@ date_m = input("Hi " + name + ", what was the name of the month are you born? ")
 date_y = float(input("And what year were you born in, " + name + "? "))
 date_d = float(input("And the day? "))
 
+if monthnum <= 2 and monthnum >= 12:
+    season="winter"
+elif monthnum >=3 and monthnum <=5:
+    season="spring"
+elif monthnum >= 6 and monthnum <=8:
+    season-"summer"
+else: season="autumn"
+
+if date_y >= 1980 and date_y <= 1989:
+    age="eighties"
+elif date_y >= 1990 and date_ <= 1999:
+    age="nineties"
+elif date_y >=2000:
+    age="two thousands"
+else: age="stone age" 
+
+print("")
+
+
 monthnum = month_name.index(date_m)
 if (monthnum == 10) and (date_d == 31):
-    print("You were bonr on Halloween")
+    print("You were born on Halloween")
 if ((monthum == todaymonth) and (date_d == todaydate)):
     print("Happy Birthday")
-print(monthnum)
+else: print("{0}, you are a {1} baby of the {2}".format(name, season, age))
