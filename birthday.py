@@ -66,4 +66,4 @@ if (monthnum == 10) and (date_d == 31):
     print("You were born on Halloween")
 if ((monthnum == todaymonth) and (date_d == todaydate)):
     print("Happy Birthday")
-else: print("{0}, you are a {1} baby of the {2}".format(name, season, age))
+else: print("{0}, you are a {1} baby of the {2}.".format(name, season, age))
