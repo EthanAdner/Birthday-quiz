@@ -34,7 +34,7 @@ Example Session
 from datetime import datetime
 from calendar import month_name
 todaymonth = datetime.today().month
-todaydate = datetime.today().day
+todaydate = int(datetime.today().day)
 month_name = list(month_name)
 
 name = input("What is your name? ")
@@ -61,7 +61,7 @@ else: age="stone age"
 print("")
 
 
-monthnum = month_name.index(date_m)
+monthnum = int(month_name.index(date_m))
 if (monthnum == 10) and (date_d == 31):
     print("You were born on Halloween")
 if ((monthum == todaymonth) and (date_d == todaydate)):
