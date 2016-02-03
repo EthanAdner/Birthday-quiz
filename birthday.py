@@ -45,6 +45,6 @@ date_d = float(input("And the day? "))
 monthnum = month_name.index(date_m)
 if (monthnum == 10) and (date_d == 31):
     print("You were bonr on Halloween")
-if ((monthum == month_name.index(todaymonth)) and (date_d == todaydate)):
+if ((monthum == todaymonth) and (date_d == todaydate)):
     print("Happy Birthday")
 print(monthnum)
