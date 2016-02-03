@@ -1,7 +1,7 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Ethan Adner
+Credit: Eric Dennison
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -65,7 +65,7 @@ print("")
 
 if (monthnum == 10) and (date_d == 31):
     print("You were born on Halloween!")
-if ((monthnum == todaymonth) and (date_d == todaydate)):
+elif ((monthnum == todaymonth) and (date_d == todaydate)):
     print("Happy Birthday!")
-if not((monthnum == 10) and (date_d == 31)) and not(((monthnum == todaymonth) and (date_d == todaydate))): 
+else: 
     print("{0}, you are a {1} baby of the {2}.".format(name, season, age))
