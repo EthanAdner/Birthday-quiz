@@ -52,7 +52,7 @@ else: season="autumn"
 
 if date_y >= 1980 and date_y <= 1989:
     age="eighties"
-elif date_y >= 1990 and date_ <= 1999:
+elif date_y >= 1990 and date_y <= 1999:
     age="nineties"
 elif date_y >=2000:
     age="two thousands"
