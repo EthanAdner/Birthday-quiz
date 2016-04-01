@@ -43,7 +43,7 @@ date_y = float(input("And what year were you born in, " + name + "? "))
 date_d = float(input("And the day? "))
 
 monthnum = int(month_name.index(date_m))
-if monthnum <= 2 and monthnum >= 12:
+if monthnum <= 12 and monthnum >= 2:
     season="winter"
 elif monthnum >=3 and monthnum <=5:
     season="spring"
