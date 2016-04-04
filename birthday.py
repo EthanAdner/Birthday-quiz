@@ -49,7 +49,8 @@ elif monthnum >=3 and monthnum <=5:
     season=("spring")
 elif monthnum >= 6 and monthnum <=8:
     season=("summer")
-else: season=("autumn")
+else:
+    season=("autumn")
 
 if date_y >= 1980 and date_y <= 1989:
     age="eighties"
