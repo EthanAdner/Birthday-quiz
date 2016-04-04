@@ -51,6 +51,8 @@ elif monthnum >= 6 and monthnum <=8:
     season=("summer")
 elif monthnum >= 9 and monthnum <= 11:
     season=("autumn")
+else: 
+    return()
 
 if date_y >= 1980 and date_y <= 1989:
     age="eighties"
