@@ -44,12 +44,12 @@ date_d = float(input("And the day? "))
 
 monthnum = int(month_name.index(date_m))
 if monthnum <= 12 and monthnum >= 2:
-    season="winter"
+    season=("winter")
 elif monthnum >=3 and monthnum <=5:
-    season="spring"
+    season=("spring")
 elif monthnum >= 6 and monthnum <=8:
-    season-"summer"
-else: season="autumn"
+    season=("summer")
+else: season=("autumn")
 
 if date_y >= 1980 and date_y <= 1989:
     age="eighties"
