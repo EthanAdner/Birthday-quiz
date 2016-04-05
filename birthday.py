@@ -42,15 +42,15 @@ date_m = input("Hi " + name + ", what was the name of the month you were born in
 date_y = float(input("And what year were you born in, " + name + "? "))
 date_d = float(input("And the day? "))
 
-monthnum = int(month_name.index(date_m))
+#monthnum = int(month_name.index(date_m))
 
-if monthnum in ["December", "January", "February"]:
+if date_m in ["December", "January", "February"]:
     season=("winter")
-elif monthnum in ["March", "April", "May"]:
+elif date_m in ["March", "April", "May"]:
     season=("spring")
-elif monthnum ["June", "July", "August"]:
+elif date_m ["June", "July", "August"]:
     season=("summer")
-elif monthnum ["Spetember", "October", "November"]:
+elif date_m ["Spetember", "October", "November"]:
     season=("fall")
 
 
