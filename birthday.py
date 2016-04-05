@@ -43,14 +43,15 @@ date_y = float(input("And what year were you born in, " + name + "? "))
 date_d = float(input("And the day? "))
 
 monthnum = int(month_name.index(date_m))
-if monthnum <= 12 and monthnum >= 2:
+
+if monthnum in ["December", "January", "February"]:
     season=("winter")
-elif monthnum >=3 and monthnum <=5:
+elif monthnum in ["March", "April", "May"]:
     season=("spring")
-elif monthnum >= 6 and monthnum <=8:
+elif monthnum ["June", "July", "August"]:
     season=("summer")
-elif monthnum >= 9 and monthnum <= 11:
-    season=("autumn")
+elif monthnum ["Spetember", "October", "November"]:
+    season=("fall")
 
 
 if date_y >= 1980 and date_y <= 1989:
